@@ -1,16 +1,107 @@
-# React + Vite
+# 🍽️ Restaurant UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive restaurant website UI built with **React.js** and **Tailwind CSS**. This project focuses on creating a clean, attractive, and user-friendly interface for a modern food and restaurant website.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 📱 Fully responsive design
+* 🌓 Dark and Light mode
+* 🍔 Modern restaurant UI
+* 🖼️ Food showcase section
+* 🎠 Interactive food carousel using Swiper
+* 💬 Customer testimonial section
+* 🎨 Smooth animations and transitions
+* 📱 Mobile, tablet, and desktop friendly
+* ⚡ Fast and reusable React components
+* 🎯 Clean and organized UI
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React.js**
+* **Tailwind CSS**
+* **Swiper.js**
+* **AOS (Animate On Scroll)**
+* **Vite**
+* **JavaScript (ES6+)**
 
-## Expanding the Oxlint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+src/
+├── assets/
+├── components/
+│   ├── Navbar/
+│   ├── Hero/
+│   ├── Services/
+│   ├── Banner/
+│   ├── Food/
+│   ├── Testimonials/
+│   └── Footer/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone <your-repository-url>
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd restaurant-ui
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at the local development URL provided by Vite.
+
+## 🎨 Highlights
+
+The UI is designed with a focus on:
+
+* Clean and modern layout
+* Attractive food presentation
+* Smooth user interactions
+* Responsive design
+* Reusable React components
+* Consistent color and typography
+* Dark mode support
+
+## 📸 Preview
+
+*Add screenshots of your project here.*
+
+## 📌 Future Improvements
+
+* 🛒 Add shopping cart functionality
+* 🔐 Add user authentication
+* 💳 Add online payment integration
+* 📦 Add food ordering functionality
+* 🔎 Add food search and filtering
+* 🗄️ Connect with a backend API
+* 👤 Add user profiles and order history
+
+## 👨‍💻 Author
+
+**Bahar**
+
+Built with ❤️ using React and Tailwind CSS.
+
+## 📄 License
+
+This project is created for learning and portfolio purposes.
