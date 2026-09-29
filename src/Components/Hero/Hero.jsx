@@ -24,7 +24,7 @@ const bgImage = {
   backgroundPosition: "center",
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
-  with: "100%",
+  width: "100%",
   height: "100%",
 };
 
@@ -37,11 +37,12 @@ const Hero = () => {
     >
       <div className="container pb-8">
         <div className="grid grid-cols-1 sm:grid-cols-2">
-          <div 
-          data-aos="zoom-out"
-          data-aos-duration="400"
-          data-aos-once="true"
-          className="flex flex-col gap-4 pt-12">
+          <div
+            data-aos="zoom-out"
+            data-aos-duration="400"
+            data-aos-once="true"
+            className="flex flex-col gap-4 pt-12"
+          >
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
               Welcome to the Foodie Zone
             </h1>
@@ -58,11 +59,13 @@ const Hero = () => {
           </div>
 
           <div className="flex justify-center items-center order-1 sm:order-2 min-h-[450px] sm:min-h-[550px] relative">
-            <div className="flex justify-center items-center h-[300px] sm:h-[450px] overflow-hidden ">
-              <img
+            <div
               data-aos="zoom-in"
               data-aos-duration="300"
               data-aos-once="true"
+              className="flex justify-center items-center h-[300px] sm:h-[450px] overflow-hidden "
+            >
+              <img
                 src={imageId}
                 className="w-[300px] sm:w-[450px] mx-auto animate-spin "
                 alt=""
