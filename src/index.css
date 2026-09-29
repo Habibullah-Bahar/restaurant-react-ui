@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  --color-primary: #ffc001;
+  --color-secondary: #ff9c01;
+}
+@theme {
+  --animate-spin: spin 40s linear infinite;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+
+  @media (min-width: 640px) {
+    padding-inline: 3rem;
+  }
+}
+
